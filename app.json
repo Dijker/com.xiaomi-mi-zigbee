@@ -27,10 +27,6 @@
         "email": "Edwin.Tan@automate.asia"
       },
       {
-        "name": "Sprut",
-        "email": "sprut.1@me.com"
-      },
-      {
         "name": "Kasteleman",
         "email": "kasteleman@gmail.com"
       },
@@ -1780,7 +1776,10 @@
       },
       "zigbee": {
         "manufacturerName": "LUMI",
-        "productId": "lumi.sensor_cube",
+        "productId": [
+          "lumi.sensor_cube",
+          "lumi.sensor_cube.aqgl01"
+        ],
         "endpoints": {
           "1": {
             "clusters": [
